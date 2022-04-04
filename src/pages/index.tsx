@@ -64,7 +64,7 @@ export default function Home(): JSX.Element {
         isLoading={isFetchingNextPage}
         marginTop="10"
         > 
-          Load more pages
+          Carregar mais
         </Button>
         )}
         

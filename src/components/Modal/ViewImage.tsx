@@ -31,7 +31,7 @@ export function ModalViewImage({
           <Image src={imgUrl}/>
         </ModalBody>
         <ModalFooter justifyContent="flex-start">
-          <Link href={imgUrl}>Open original</Link>
+          <Link href={imgUrl}>Abrir original</Link>
         </ModalFooter>
       </ModalContent>
     </Modal>
