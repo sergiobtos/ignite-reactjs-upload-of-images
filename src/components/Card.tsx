@@ -6,6 +6,7 @@ import {
   Skeleton,
   SkeletonText,
 } from '@chakra-ui/react';
+//@ts-ignore
 import { useState } from 'react';
 
 interface Card {
@@ -42,8 +43,8 @@ export function Card({ data, viewImage }: CardProps): JSX.Element {
       <Box pt={5} pb={4} px={6}>
         {isLoading ? (
           <>
-            <SkeletonText fontSize="2xl" mt={2} noOfLines={1} />
-            <SkeletonText fontSize="md" mt={7} noOfLines={1} />
+            <SkeletonText size="2xl" noOfLines={1} />
+            <SkeletonText size="md" noOfLines={1} />
           </>
         ) : (
           <>
